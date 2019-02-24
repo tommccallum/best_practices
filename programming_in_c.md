@@ -1,5 +1,7 @@
 # Programming in C
 
+See https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard for secure coding standards.
+
 - treat all warnings as errors
 - use pragma's if you are absolutely sure you want to override the warning.  Put reasons in comments.
 - small main function allows for maximum unit test coverage.
