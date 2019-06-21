@@ -11,10 +11,10 @@ Process to follow is:
 The process of writing will help focus your ideas.
 
 * Decide what kind of paper you are writing:
-** a benchmark beating paper
-** introducing a new idea paper
-** a literature review paper to establish baseline
-** a meta-review to establish new result
+  * a benchmark beating paper
+  * introducing a new idea paper
+  * a literature review paper to establish baseline
+  * a meta-review to establish new result
 * Find papers from conferences you want to get into that match the style of your research - what have they done that makes their paper stand out.
 
 (Taken from Prof Simon Peyton Jones - reference below)
