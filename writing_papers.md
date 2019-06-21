@@ -1,4 +1,4 @@
-# Writing papers
+# Writing papers and getting published
 
 (Notes from SICSA PhD Conference 2019 Workshop)
 
