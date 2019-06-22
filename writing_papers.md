@@ -47,6 +47,26 @@ Watch https://www.youtube.com/watch?v=g3dkRsTqdDA
 * More for ongoing work
 * A conference paper should have 1 idea only
 
+## Guide to Sections
+
+These are rough sections that all templates normally require.  Will differ depending on topic area so look at similar conferences.
+
+* Title
+* Abstract
+* Keywords
+* Introduction
+* Methodology
+** Context
+** Participants
+** Data Collection Method
+** Analytic Approach
+* Results
+* Discussion
+* Conclusion
+* Related Work
+* Acknowledgements
+* References
+
 # Journals
 
 * Turn around time is months
