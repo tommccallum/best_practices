@@ -52,21 +52,38 @@ Watch https://www.youtube.com/watch?v=g3dkRsTqdDA
 These are rough sections that all templates normally require.  Will differ depending on topic area so look at similar conferences.
 
 * Title
+This should be your research question and should articulate the question you are trying to answer.
 * Abstract
 * Keywords
 * Introduction
+This should be the first section you write BEFORE you begin your research.
+  * Why is this an interesting question? 
+  * What is the current state of the field?
+  * What is your contribution?  The contribution of this paper is...
+  * Forward reference to other sections to explain what the reader can find where
 * Methodology
-** Context
-** Participants
-** Data Collection Method
-** Analytic Approach
+  * Context
+  * Participants
+  * Data Collection Method
+  * Analytic Approach
 * Results
 * Discussion
+  * Critical analysis of the results
+  * How does it fit in with existing work? Does it agree/disagree?
+  * References should be made to the work that this builds on
 * Conclusion
+  * Here you should be drawing the strands of the discussion, restate your aims and reiterating your contribution.
+  * State what the limitations were 
+  * State how this could be extended in the future / additional research (you may need references here)
 * Related Work
 * Acknowledgements
+  * Thank funders 
+  * Thank collaborators and people who have guided your work.
+  * Thank any anonymous reviewers for their feedback.
+  * Thank those who participated in the research.
 * References
-
+  * Prefer journal papers and good quality conference proceedings 
+  
 # Journals
 
 * Turn around time is months
