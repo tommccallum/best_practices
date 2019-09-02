@@ -30,6 +30,7 @@ and age hanging around by them selves
 - Look for shortcuts for small values of N
 - If looking for strings within strings, you can use a graph and depth first search to navigate faster
 - If using permutations you will probably need factorials
+
 ```
 long long fac = 1;
 for( int ii=1; ii < n; ii++ ) {
@@ -37,11 +38,14 @@ for( int ii=1; ii < n; ii++ ) {
   // ... other work ...
 }
 ```
+
 - use this include to get everything in standard library and remove need for std prefix:
+
 ```
 #include <bits/stdc++.h>
 using namespace std;
 ```
+
 - rather than worry about 0 index, either ignore it or make arrays bigger than required. 
 - use algorithm transforms to shorten typing required.
 - if problem talks about modulo, then make all calculations modulo
@@ -49,8 +53,11 @@ using namespace std;
 # Common C++ hacks to try and squeeze a little extra speed
 
 - Disable syncing between C++ and C standard buffers
+
 ```ios::sync_with_stdio(false);```
+
 - Disable syncing between cin and cout, downside is that console output may not be as expected
+
 ```cin.tie(0), cout.tie(0);```
 
 
