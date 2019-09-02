@@ -49,6 +49,7 @@ using namespace std;
 - rather than worry about 0 index, either ignore it or make arrays bigger than required. 
 - use algorithm transforms to shorten typing required.
 - if problem talks about modulo, then make all calculations modulo
+- unroll some loops to be faster may be necessary
 
 
 # Common C++ hacks to try and squeeze a little extra speed
