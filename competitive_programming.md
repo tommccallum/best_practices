@@ -50,6 +50,7 @@ using namespace std;
 - use algorithm transforms to shorten typing required.
 - if problem talks about modulo, then make all calculations modulo
 
+
 # Common C++ hacks to try and squeeze a little extra speed
 
 - Disable syncing between C++ and C standard buffers
@@ -59,5 +60,24 @@ using namespace std;
 - Disable syncing between cin and cout, downside is that console output may not be as expected
 
 ```cin.tie(0), cout.tie(0);```
+
+- common macros
+```
+#define FOR(s,c,inc) for(int ii=s; ii < c; ii += inc )
+#define cFOR(c) for(int ii=0; ii < c; ii ++ )
+#define rFOR(s,c,dec) for(int ii=s-1; ii >= c; ii -= dec )
+#define rdFOR(s) for(int ii=s; ii >= 0; ii-- )
+#define NWHILE while( n-- )
+#define ll long long
+#define ull unsigned long long
+#define GET_N int n; cin >> n
+#define XOR(x,secret) ( x | secret ) & ( ~x | ~secret )
+#define HI(x,bits) ( ( x >> bits ) << bits )
+#define LO(x, bits) ( x % pow(2,bits) )
+#define pb(x,bits) bitset<bits>(x)
+#define p32(x) bitset<32>(x)
+#define p16(x) bitset<16>(x)
+#define p8(x) bitset<8>(x)
+```
 
 
