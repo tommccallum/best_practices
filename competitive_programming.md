@@ -50,7 +50,12 @@ using namespace std;
 - use algorithm transforms to shorten typing required.
 - if problem talks about modulo, then make all calculations modulo
 - unroll some loops to be faster may be necessary
+- Global variables are used because in the C standard they are required to be zero initialised.
 
+_“If an object that has static storage duration is not initialized explicitly, it is initialized implicitly as if every member that has arithmetic type were assigned 0 and every member that has pointer type were assigned a null pointer constant.”_
+
+- Large arrays tend to be put as Global variables as otherwise they can sometimes fall foul of a local stack limit.
+- Global Variables are also allocated at the time the program is loaded all in one go rather than in small chunks.  Anything that might call malloc will slow down the application, so a one time allocation is better.
 
 # Common C++ hacks to try and squeeze a little extra speed
 
