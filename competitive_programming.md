@@ -28,6 +28,8 @@ and age hanging around by them selves
 # General Tips
 
 - https://www.geeksforgeeks.org/tips-and-tricks-for-competitive-programmers-set-1-for-beginners/
+- https://codeforces.com/blog/entry/23054
+- https://www.geeksforgeeks.org/c-tricks-competitive-programming-c-11/
 
 # Tactics
 
@@ -63,6 +65,7 @@ _“If an object that has static storage duration is not initialized explicitly,
 
 # Common C++ hacks to try and squeeze a little extra speed
 
+
 - Disable syncing between C++ and C standard buffers
 
 ```ios::sync_with_stdio(false);```
@@ -88,6 +91,36 @@ _“If an object that has static storage duration is not initialized explicitly,
 #define p32(x) bitset<32>(x)
 #define p16(x) bitset<16>(x)
 #define p8(x) bitset<8>(x)
+#define ISODD(x) num & 1
+#define DIV2(x) x >> 1;
+#define MUL2(x) x << 1;
+#define SWAP(x,y) x ^= y, y ^= x, x ^= y
+#define NDIGITS(x) floor(log10(N))+1
+#define ISPOW2(x) x && (!(x&(x-1)))
 ```
+- avoid strlen(x) by using:
+```
+for( i=0; s[i]; i++ ) { 
+  // work, loop breaks when s[i] is NULL 
+}
+```
+- use emplace_back, not push_back to stop additional memory allocation
+- use inbuilt C++ gcd ```__gcd(x,y)```
+- calculate the most significant digit of the number N
+```
+double k = log10(N);
+k = k - floor(k)
+int x = pow(10,k);
+```
+- use C++ builtins for the following:
+```
+all_of( first, first+n, ispositive());
+any_of( first, first+n, ispositive());
+none_of( first, first+n, ispositive());
+copy_n(source_array,num_to_copy,target_array);
+itoa(array_start, array_end, start_value); // create sequence 10,11,12,... or 'a','b','c',....
+```
+- use 0b for initialising numbers in binary format
+
 
 
