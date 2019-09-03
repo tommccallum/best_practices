@@ -25,11 +25,12 @@ the solution in the main() or solve() method
 and age hanging around by them selves
 - _Global variables_ - it is very common to have a lot of global variables in CP. Obviously, in RL this is not recommended.
 
-# General Tips
+# General Tips & Help
 
 - https://www.geeksforgeeks.org/tips-and-tricks-for-competitive-programmers-set-1-for-beginners/
 - https://codeforces.com/blog/entry/23054
 - https://www.geeksforgeeks.org/c-tricks-competitive-programming-c-11/
+- https://www.quora.com/What-is-a-list-of-data-structures-that-a-competitive-programmer-must-know
 
 # Tactics
 
