@@ -17,4 +17,5 @@
 - experimental is the stuff being worked on for the next version of C++
 - unordered_set is a set of immutable items, optimised for checking for duplicates so order returned is not necessarily the order added
 - use <regex> for regular expressions
+- in type_traits - why are __value set as enum { __value = 0; }? Answer: this is the way that "true constants" were defined (see http://www.informit.com/articles/article.aspx?p=30667&seqNum=2) 
 - 
